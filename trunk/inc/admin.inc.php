@@ -26,5 +26,17 @@ class mangopayDKAdmin{
     /** Instantiate user profile field validations class **/
 		$this->mangopayDKValidation = new mangopayDKValidation( $this );        
 	}
+	
+	public function filter_plugin_name( $plugin_name ) {
+		return 'Dokan';
+	}
+	
+	public function filter_plugin_path( $plugin_path ) {
+		return mangopayDKConfig::DK_PLUGIN_PATH;
+	}
+	
+	public function filter_plugin_class( $plugin_class ) {
+		return mangopayDKConfig::DK_PLUGIN_CLASS;
+	}
 }
 ?>
