@@ -59,4 +59,9 @@ if( is_admin() )
 /** Main plugin class instantiation **/
 global $mngpd_o;
 $mngpd_o = new mangopayDKMain( $version );
+
+function dokan_withdraw_method_mangopay($store_settings){
+    global $mngpd_o;
+    $mngpd_o->dokan_withdraw_method_mangopay($store_settings);
+}
 ?>
