@@ -1,5 +1,5 @@
 # Marketplace-gateway-for-Dokan-and-MANGOPAY
-WordPress payment gateway add-on to make the MANGOPAY-WooCommerce plugin compatible with Dokan (beta / unofficial / unsupported)
+WordPress payment gateway add-on to make the [MANGOPAY-WooCommerce plugin](https://wordpress.org/plugins/mangopay-woocommerce/) compatible with Dokan (beta / unofficial / unsupported)
 
 # Please note:
 - this is an unofficial beta plugin. Use at your own risk.
